@@ -1,0 +1,42 @@
+{
+  "clientSchemaVersion": 1,
+  "serverSchemaVersion": 4,
+  "publishedDefaultPageName": "Page1",
+  "unpublishedDefaultPageName": "Page1",
+  "invisibleActionFields": {
+    "Public.users_DeleteQuery": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Public.users_InsertQuery": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Public.users_SelectQuery": {
+      "unpublishedUserSetOnLoad": true,
+      "publishedUserSetOnLoad": true
+    },
+    "Public.users_UpdateQuery": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    }
+  },
+  "publishedTheme": {
+    "name": "Classic",
+    "displayName": "Classic",
+    "isSystemTheme": true,
+    "deleted": false,
+    "policies": [
+      {
+        "permission": "read:themes",
+        "users": [
+          "anonymousUser"
+        ],
+        "groups": []
+      }
+    ]
+  },
+  "publishedLayoutmongoEscapedWidgets": {},
+  "unpublishedLayoutmongoEscapedWidgets": {},
+  "fileFormatVersion": 2
+}
